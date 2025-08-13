@@ -1,0 +1,10 @@
+<canvas id="@Id" width="@Width" height="@Height" @ref="CanvasRef"
+        @onclick="EventUtil.AsNonRenderingEventHandler<MouseEventArgs>(ActionOnClick)"
+        @onmousedown="EventUtil.AsNonRenderingEventHandler<MouseEventArgs>(ActionOnMouseDown)"
+        @onmousemove="EventUtil.AsNonRenderingEventHandler<MouseEventArgs>(ActionMouseMove)"
+        @onmouseout="EventUtil.AsNonRenderingEventHandler<MouseEventArgs>(ActionMouseOut)"
+        @onmouseover="EventUtil.AsNonRenderingEventHandler<MouseEventArgs>(ActionMouseOver)"
+        @oncontextmenu="EventUtil.AsNonRenderingEventHandler<MouseEventArgs>(ActionContextMenu)" @oncontextmenu:preventDefault="true"
+        @onmouseup="EventUtil.AsNonRenderingEventHandler<MouseEventArgs>(ActionOnMouseUp)"
+        @onmousewheel="EventUtil.AsNonRenderingEventHandler<WheelEventArgs>(ActionMouseWheel)"
+        @attributes="AdditionalAttributes"></canvas>

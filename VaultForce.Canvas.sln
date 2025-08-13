@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaultForce.Canvas", "VaultForce.Canvas\VaultForce.Canvas.csproj", "{3B81FF7A-4F19-4A40-A8EE-58B1301144EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaulforce.Canvas.JS", "Vaulforce.Canvas.JS\Vaulforce.Canvas.JS.csproj", "{BF1145BB-56E8-4391-8D43-A016EF694005}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B81FF7A-4F19-4A40-A8EE-58B1301144EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B81FF7A-4F19-4A40-A8EE-58B1301144EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B81FF7A-4F19-4A40-A8EE-58B1301144EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B81FF7A-4F19-4A40-A8EE-58B1301144EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1145BB-56E8-4391-8D43-A016EF694005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1145BB-56E8-4391-8D43-A016EF694005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1145BB-56E8-4391-8D43-A016EF694005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1145BB-56E8-4391-8D43-A016EF694005}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
